@@ -48,7 +48,7 @@ Este projeto foi desenvolvido com as seguintes tecnologias:
 [Typescript][typescript] 📘 </br>
 [Docker][docker] 🐳 </br>
 [NodeMailer][nodemailer] 📬️ </br>
-[Ethereal][ethereal] </br>
+[Ethereal][ethereal] 🦆️ </br>
 
 ## Como usar ? 🤔
 
@@ -88,6 +88,11 @@ $ docker logs email -f
 $ docker-compose up --build --force-recreate
 ```
 Neste momento temos a nossa aplicação com o backend e seus serviços em execução, com o backend rodando na porta 3333. *http://localhost:3333*
+
+<div align="center">
+ 
+[![Run in Insomnia}](https://insomnia.rest/images/run.svg)](https://insomnia.rest/run/?label=SendEmail&uri=https%3A%2F%2Fgithub.com%2Fmarcelogaldino%2FsendEmail%2Fblob%2Fmain%2FInsomnia-file)
+</div>
 
 ## Como contribuir
 
