@@ -1,0 +1,36 @@
+{
+  "name": "sendemail",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/shared/infra/http/server.ts",
+  "scripts": {
+    "dev": "ts-node-dev -r tsconfig-paths/register --inspect --transpile-only --ignore-watch node_modules --respawn src/shared/infra/http/server.ts",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcelogaldino/sendEmail.git"
+  },
+  "author": "Marcelo Galdino",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/marcelogaldino/sendEmail/issues"
+  },
+  "homepage": "https://github.com/marcelogaldino/sendEmail#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemailer": "^6.7.1",
+    "reflect-metadata": "^0.1.13",
+    "tsyringe": "^4.6.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@types/jest": "^27.0.3",
+    "@types/nodemailer": "^6.4.4",
+    "jest": "^27.3.1",
+    "ts-jest": "^27.0.7",
+    "ts-node-dev": "^1.1.8",
+    "tsconfig-paths": "^3.11.0",
+    "typescript": "^4.5.2"
+  }
+}
