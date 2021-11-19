@@ -107,7 +107,7 @@ Você também pode nos ajudar abrindo issues.
 
 ## :memo: License
 
-This project is under the MIT license. See the [LICENSE](https://github.com/marcelogaldino/cepMais/blob/main/LICENSE) for details.
+This project is under the MIT license. See the [LICENSE](https://github.com/marcelogaldino/sendEmail/blob/main/LICENSE) for details.
 
 
 Made with ♥ by Marcelo Galdino :wave: [Get in touch!](https://www.linkedin.com/in/marcelogaldino/)
